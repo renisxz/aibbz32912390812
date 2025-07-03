@@ -4409,14 +4409,14 @@ type: stringlist
 label: S-Tier uniques.
 group: s-tier-unique
 */
-#define VAR_UNIQUE_STIER ["Infernal cape","Fire cape","Dizana's quiver*","Unsired","Ancient blood ornament kit","Ultor vestige","Venator vestige","Bellator vestige","Magus vestige","Executioner's axe head","Leviathan's lure","Siren's staff","Eye of the duke","Slepey tablet","*max cape","*mutagen","*champion scroll","Zenyte shard"]
+#define VAR_UNIQUE_STIER ["Infernal cape","Fire cape","Dizana's quiver*","Unsired","Ancient blood ornament kit","Ultor vestige","Venator vestige","Bellator vestige","Magus vestige","Executioner's axe head","Leviathan's lure","Siren's staff","Eye of the duke","Slepey tablet","*max cape","*mutagen","*champion scroll","Zenyte shard","Dragon axe"]
 
 /*@ define:input:uniques
 type: stringlist
 label: A-Tier uniques.
 group: a-tier-unique
 */
-#define VAR_UNIQUE_ATIER ["brimstone key","jar of*","noxious pommel","noxious point","noxious blade","*half of key (moon key)","Dragon harpoon"]
+#define VAR_UNIQUE_ATIER ["brimstone key","jar of*","noxious pommel","noxious point","noxious blade","*half of key (moon key)","Dragon harpoon","Seers ring"]
 
 /*@ define:input:uniques
 type: stringlist
@@ -4727,7 +4727,7 @@ name: Currency / Tokens
 type: stringlist
 label: Currency / Token items
 */
-#define VAR_CURRENCY_ITEMS ["Mole claw","Mole skin","Trading sticks","Numulite","Abyssal pearls","Anima-infused bark","Barronite shards","Blood money","Ecto-token","Frog token","Golden nugget","Glistening tear","Hallowed mark","Intelligence","Mark of grace","Mermaid's tear","Minnow","Molch pearl","Nuggets","Rare creature parts","Reward token credits","Stardust","Tokkul","Termites","Unidentified minerals","Warrior guild token","Blessed bone shards","Sun-kissed bones","Ecumenical key shard"]
+#define VAR_CURRENCY_ITEMS ["Mole claw","Mole skin","Trading sticks","Numulite","Abyssal pearls","Anima-infused bark","Barronite shards","Blood money","Ecto-token","Frog token","Golden nugget","Glistening tear","Hallowed mark","Intelligence","Mark of grace","Mermaid's tear","Minnow","Molch pearl","Nuggets","Rare creature parts","Reward token credits","Stardust","Tokkul","Termites","Unidentified minerals","Warrior guild token","Blessed bone shards","Sun-kissed bones","Ecumenical key shard","ancient shard"]
 
 
 /*@ define:input:currency_/_tokens
@@ -4818,7 +4818,7 @@ label: Style
 group: t5
 exampleItem: Divine Orb
 */
-#define VAR_VALUE_T5_CUSTOMSTYLE textColor = "#ff0000";backgroundColor = "#ffffff";borderColor = "#ff0000";textAccent = 3;fontType = 3;showLootbeam = true;
+#define VAR_VALUE_T5_CUSTOMSTYLE textColor = "#ff0000";backgroundColor = "#ffffff";borderColor = "#ff0000";textAccent = 3;fontType = 3;showLootbeam = true;showValue = true;
 
 /*@ define:input:item_values
 type: style
